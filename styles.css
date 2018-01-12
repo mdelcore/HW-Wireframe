@@ -1,0 +1,89 @@
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+	background: #777;
+	width: 960px;
+	margin: 0 auto;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+.header {
+	background: #ebebeb;
+	text-align: center;
+	padding: 40px;
+	/*float: left;*/
+}
+
+.nav {
+	background: #ebebeb;
+	text-align: center;
+	padding: 40px;
+	/*float: left;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.section {
+	background: #ebebeb;
+	width: 480px;
+	height: 283px;
+	width: 54%;
+	text-align: center;
+	float: left;
+	padding: 10px;
+}
+
+.article {
+	background: #777;
+	width: 96%;
+	height: auto;
+	text-align: center;
+	margin-top: 30px;
+	float: left;
+	padding: 10px;
+}
+
+h1 {
+	background: #ebebeb;
+	width: 50%;
+	text-align: center;
+	margin-left: 10px;
+	float: left;
+	padding: 20px 115px;
+}
+
+p {
+	clear: both;
+	background: #ebebeb;
+	width: 38%;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+	padding: 20px 145px;
+}
+
+.aside {
+	background: #ebebeb;
+	width: 13%;
+	text-align: center;
+	float: right;
+	padding: 140px;
+}
+
+.footer {	
+	clear: both; 
+	background: #ebebeb;
+	max-width: 960px;
+	text-align: center;
+	float: left;
+	padding: 40px;
+	margin-top: 20px;
+	width: 92%;
+	overflow: auto;
+}
